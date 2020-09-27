@@ -1,3 +1,10 @@
+/*
+*{ 
+    margin:0;
+    padding:0;
+}
+*/
+
 body {
   background-color: #f4f4f4;
   color: #555555;
@@ -19,4 +26,34 @@ body {
 .box-1 {
   background-color: #333;
   color: #fff;
+
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  /* Same as the 4 lines of code above */
+  border: 5px red solid;
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  /* Same as the 4 lines of code above */
+  padding: 20px;
+
+  margin-top: 20px;
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 0.25em;
 }
