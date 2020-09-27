@@ -57,3 +57,24 @@ body {
   letter-spacing: 0.2em;
   word-spacing: 0.25em;
 }
+
+.box-2 {
+  border: 3px dotted #5f5f5f;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.Categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.Categories h2 {
+  text-align: center;
+}
+
+.Categories ul {
+  padding: 0;
+  list-style: square;
+}
